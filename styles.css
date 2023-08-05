@@ -1,21 +1,74 @@
 body {
-  background-color: rgb(38, 113, 235);
+  background-color: rgb(38, 113, 235);/*Set background color of any body element to blue.*/
 }
 h1 {
-  color:goldenrod;
+  color:goldenrod;/*Sets font color to golden rod for all h1 elements*/
+}
+
+h2 {
+  color:gold;/*Sets font color to gold for all h2 elements*/
 }
 
 div{
-  background-color: cornflowerblue;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
+  background-color: cornflowerblue;/*Set background color of any div element to corn flower blue.*/
+  border-style: solid;/*Sets the border style any div element to solid.*/
+  border-color: black;/*Set border color of any div element to black.*/
+  border-radius: 5px;/*Set the radius of the curve the border radius within any div element.*/
 }
 
 .shadow-text {
-  test-shadow: gray 1px 1px;
-}
+  text-shadow: black .5px .5px;
+}/*Sets text shadow of any element identified with .shadow-text to black.*/
 
 #large-paragraph {
+  font-size: 20px;
+  color: white;
+  background-color:black
+}/*Sets any element identified as #large-paragraph fot to 20 px, color to white, and background color to black.*/
+
+p{
+  border-radius: 5px;
+  font-size: 20px;
+}/*Set p elements to have a border radius of 5 pixels and a font size of 20 pixels.*/
+
+p1{
+  font-size: 20px;
+  font-weight: bold;
+}/*Specifies different formating to the specific paragramph p1 to font size 20 pixels and font weight to bold.*/
+
+ul{
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color:black
+}/*Sets the curvature of the border radius to 5 px, font size to 20 px, and font color to white.*/
+ol{
+  border-radius: 5px;
+  color: red;
+}/*Set border color radius to 5 pixels and font color to red of all ordered lists.*/
+
+img{
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}/*Sets the above styling to all img elements.*/
+table{
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10%;
+}/*Sets the above styling to all table elements.*/
+tr, th, td{
+  color-scheme: normal;
+  color: black;
+}/*Sets the above styling to all tr, th, and td elements.*/
+
+th{
   font-size: 30px;
-}
+}/*Sets the above styling to all th elements.*/
+form{
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  padding:2%;
+}/*Sets the above styling to all form elements.*/
